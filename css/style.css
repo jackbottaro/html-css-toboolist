@@ -24,9 +24,9 @@ body {
 }
 
 .circle {
-  padding: 1.5px;
-  border-radius: 46%;
-  font-size: 8px;
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 8px;+
 }
 
 /* circles color */
@@ -86,6 +86,7 @@ body {
   vertical-align: middle;
   font-weight: 900;
   font-size: 40px;
+  cursor: pointer;
 }
 
 /* main */
@@ -133,13 +134,12 @@ body {
   font-weight: bold;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .task-body {
   font-weight: 400;
   font-size: 16px;
   padding: 10px 0;
-}
-
-hr {
+  cursor: pointer;
 }
