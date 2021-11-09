@@ -5,3 +5,125 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-color: #f6f8f9;
+}
+
+/* style */
+
+.text-white {
+  color: white;
+}
+
+.task-pin {
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.circle {
+  padding: 1.5px;
+  border-radius: 46%;
+  font-size: 8px;
+}
+
+/* circles color */
+
+.green {
+  border: 1px solid green;
+  color: green;
+}
+
+.red {
+  border: 1px solid red;
+  color: red;
+}
+
+/* task pin colors*/
+
+.pin-blue {
+  background-color: #45abea;
+}
+
+.pin-purple {
+  background-color: #9c72e4;
+}
+
+.pin-green {
+  background-color: #64c0a9;
+}
+
+.pin-yellow {
+  background-color: #f29e33;
+}
+
+.pin-pink {
+  background-color: #d863a1;
+}
+
+.pin-lime {
+  background-color: #b0c926;
+}
+
+/* header */
+
+.header-bar {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+}
+
+.logo {
+}
+
+.header-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* main */
+
+.container {
+  width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px 40px;
+}
+
+.button-blue {
+  background-color: #1e90ff;
+  border-radius: 5px;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.button-empty {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px;
+  color: gray;
+  text-decoration: none;
+}
+
+/* task sections */
+
+.new-task {
+  padding-top: 30px;
+}
+
+.title-task {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.task-body {
+  font-weight: lighter;
+  padding: 10px 0;
+}
+
+hr {
+}
